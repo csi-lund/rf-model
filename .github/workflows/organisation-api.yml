@@ -30,7 +30,7 @@ jobs:
 
       - name: Download schema
         run: |
-          curl -sSL "https://devportal-int.rf.se/portal/environments/DEFAULT/apis/9592815b-79a6-32d9-b98f-190299191414/pages/ed54bff8-4b5e-3c48-af3b-92c670b15b7e/content" -o ./schema/organisation.json
+          curl -sSL "https://devportal-int.rf.se/portal/environments/DEFAULT/apis/9592815b-79a6-32d9-b98f-190299191414/pages/ed54bff8-4b5e-3c48-af3b-92c670b15b7e/content" -o ./schema/orgs.json
 
       - name: Run gnostic
         run: |
